@@ -178,8 +178,15 @@ td, th {
     display: inline-block;
     vertical-align: top;
 }
-.imagem-beneficios{
-    width: 66%;
+.imagem-beneficios {
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
 }
 .utensilios{
     width: 150px; 
